@@ -15,7 +15,7 @@ if host.lower() == "odroidxu4":
     url_done = "http://192.168.178.39:8123/api/states/input_boolean.stromverbrauch_ist_berechnet"
     url_result_data = "http://192.168.178.39:8123/api/states/sensor.stromverbrauch_tag_extern_berechnet"
     url_data = "http://192.168.178.39:8123/local/stromverbrauch/data.py"
-    path_data_local = "/srv/dev-disk-by-label-ssddata/ssddata/omv_scripts/stromverbrauch/data.py"
+    path_data_local = "/srv/dev-disk-by-uuid-6416d6e7-a248-4554-9d15-d5643a6b8a67/ssddata/omv_scripts/stromverbrauch/data.py"
 elif host.lower().startswith("frdc"):
     url_todo = "http://homeassistant.fritz.box:8123/api/states/input_boolean.stromverbrauch_todo"
     url_done = "http://homeassistant.fritz.box:8123/api/states/input_boolean.stromverbrauch_ist_berechnet"
